@@ -1,0 +1,40 @@
+:root {
+  box-sizing: border-box;
+}
+
+* {
+  /* color: #eee; */
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: rgb(22, 33, 48);
+}
+
+/* utilities classes */
+
+.title {
+  color: #eee;
+}
+
+.bg-dark {
+  background-color: #333;
+}
+
+.text-white {
+  color: #eee;
+}
+
+.custom-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.custom-buttons {
+  color: white;
+}
+
+.custom-buttons button, .custom-buttons div {
+  color: white;
+  border-color: white;
+}
